@@ -32,6 +32,8 @@ public class Constant {
     public static final String ERROR_SIGNUP_USER_CODE = "ER-402";
     public static final String ERROR_LOGIN_USER_CODE  = "ER-403";
 
+    public static final String ERROR_TO_DO_CODE  = "ER-420";
+
 
     //SUCCESS-CODES
     public static final String SUCCESSFUL_SIGNUP_USER_CODE  = "200-1";
