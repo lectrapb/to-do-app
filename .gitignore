@@ -1,0 +1,26 @@
+# compiled output
+ToDoFront/dist
+ToDoFront/node_modules
+ToDoFront/tmp
+ToDoFront/out-tsc
+# IDEs and editors
+### VS Code ###
+ToDoFront/.vscode/
+ToDoFront/.vscode/*
+ToDoFront/!.vscode/settings.json
+ToDoFront/!.vscode/tasks.json
+ToDoFront/!.vscode/launch.json
+ToDoFront/!.vscode/extensions.json
+ToDoFront/.history/*
+### IDEA #####
+.idea
+ToDoBack/.idea
+ToDoBack/*.iws
+ToDoBack/*.iml
+ToDoBack/*.ipr
+ToDoBack/HELP.md
+ToDoBack/target/
+ToDoBack/!.mvn/wrapper/maven-wrapper.jar
+ToDoBack/!**/src/main/**/target/
+ToDoBack/!**/src/test/**/target/
+ToDoBack/**/src/main/resources/application.yaml
