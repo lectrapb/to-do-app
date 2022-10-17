@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      auto-index-creation: true
+      host: localhost
+      port: 27017
+      username: user
+      password: password
+      database: springboot_todo_server
+
+logging:
+  level:
+    org:
+      mongodb:
+        core:
+          MongoTemplate: debug
+
