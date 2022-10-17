@@ -5,12 +5,11 @@ import lombok.Data;
 
 @Data
 @Builder
-public class SingUpResponseDTO {
+public class SignUpResponseDTO {
 
     private String uid;
     private String name;
     private String email;
     private String image;
-    private String role;
     private boolean google;
 }

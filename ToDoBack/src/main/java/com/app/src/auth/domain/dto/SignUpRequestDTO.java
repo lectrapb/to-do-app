@@ -1,9 +1,9 @@
-package com.app.src.auth.domain.user;
+package com.app.src.auth.domain.dto;
 
 import lombok.Data;
 
 @Data
-public class User {
+public class SignUpRequestDTO {
 
     private String uid;
     private String name;

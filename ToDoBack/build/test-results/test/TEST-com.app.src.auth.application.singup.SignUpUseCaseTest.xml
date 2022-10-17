@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.src.auth.application.singup.SignUpUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-17T05:09:18" hostname="ingeniero-lubuntu20" time="0.692">
+<testsuite name="com.app.src.auth.application.singup.SignUpUseCaseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-17T15:55:43" hostname="ingeniero-lubuntu20" time="0.686">
   <properties/>
-  <testcase name="signIn_use_case_user_exist_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.684"/>
-  <testcase name="signIn_use_case_null_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.002"/>
-  <testcase name="singIn_user_case_ok_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.004"/>
-  <system-out><![CDATA[00:09:19.351 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+  <testcase name="signIn_use_case_error_user_exist_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.651"/>
+  <testcase name="singIn_user_case_error_password_wrong_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.002"/>
+  <testcase name="singIn_user_case_error_email_wrong_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.002"/>
+  <testcase name="signIn_use_case_error_null_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.003"/>
+  <testcase name="singIn_user_case_ok_test()" classname="com.app.src.auth.application.singup.SignUpUseCaseTest" time="0.022"/>
+  <system-out><![CDATA[10:55:43.595 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

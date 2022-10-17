@@ -30,9 +30,9 @@ public class Constant {
     //ERROR CODES
     public static final String ERROR_MISSING_ARGUMENTS_CODE = "ER-401";
     public static final String ERROR_SIGNUP_USER_CODE  = "ER-402";
-
     public static final String ERROR_LOGIN_USER_CODE  = "ER-403";
-
+    public static final String ERROR_PASSWORD_FORMAT_CODE  = "ER-404";
+    public static final String ERROR_EMAIL_FORMAT_CODE  = "ER-405";
 
     public static final String ERROR_TO_DO_CODE  = "ER-420";
 
@@ -49,8 +49,7 @@ public class Constant {
     public static final Map<String, Error> errorMessages = new HashMap<>();
     public static final Map<String, Message> successfulMessages = new HashMap<>();
 
-    //ROLE'S APP
-    public static final String ROLE_USER = "USER";
+
 
     static {
         errorMessages.put(ERROR_MISSING_ARGUMENTS_CODE,
@@ -59,6 +58,12 @@ public class Constant {
                 new Error(HttpStatus.BAD_REQUEST.value(), ERROR_SIGNUP_USER_CODE, FAILED_OPERATION_TITLE, "Fail sign-up user" ));
         errorMessages.put(ERROR_LOGIN_USER_CODE,
                 new Error(HttpStatus.BAD_REQUEST.value(), ERROR_LOGIN_USER_CODE, FAILED_OPERATION_TITLE, "Fail sign-in user" ));
+        errorMessages.put(ERROR_PASSWORD_FORMAT_CODE,
+                new Error(HttpStatus.BAD_REQUEST.value(), ERROR_PASSWORD_FORMAT_CODE, FAILED_OPERATION_TITLE, "Fail password format" ));
+        errorMessages.put(ERROR_EMAIL_FORMAT_CODE ,
+                new Error(HttpStatus.BAD_REQUEST.value(), ERROR_EMAIL_FORMAT_CODE , FAILED_OPERATION_TITLE, "Fail email format" ));
+
+
 
 
 
